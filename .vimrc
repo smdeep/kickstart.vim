@@ -59,13 +59,13 @@ set switchbuf=uselast wildmenu "wildoptions=pum,tagfile
 set number
 " You can also add relative line numbers, to help with jumping.
 "  Experiment for yourself to see if you like it!
-"set relativenumber
+set relativenumber
 
 " Enable mouse mode, can be useful for resizing splits for example!
 set mouse=a
 
 " Don't show the mode, since it's already in the status line
-set noshowmode
+"set noshowmode
 
 " Sync clipboard between OS and Neovim.
 "  Remove this option if you want your OS clipboard to remain independent.
@@ -210,8 +210,9 @@ call plug#end()
 set termguicolors
 let g:tokyonight_style = 'night'  " available: night, storm
 let g:tokyonight_enable_italic = 0
-colorscheme tokyonight
+"colorscheme tokyonight
 
+colorscheme catppuccin_macchiato
 
 " [[ Configure vim-which-key ]]
 call which_key#register('<Space>', "g:which_key_map")
